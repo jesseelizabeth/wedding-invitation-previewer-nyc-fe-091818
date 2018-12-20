@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script" rel="stylesheet">
+    <link rel='stylesheet' href='./index.css'>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class='header'>Wedding Invitation Designer</h1>
+      
+      <div class='grid-container'>
+        <nav id='buttons'>
+          <button id='formal'>Formal</button>
+          <button id='spring'>Spring</button>
+          <button id='art-deco'>Art Deco</button>
+        </nav>
+          
+        <form class='input'>
+          First Name:<br>
+            <input type='text' id='first-name-input'><br>
+          Second Name:<br>
+            <input type='text' id='second-name-input'><br>
+          Last Name:<br>
+            <input type='text' id='last-name-input'><br>
+          Date:<br>
+            <input type='text' id='date-input'><br>
+          Wedding Location:<br>
+            <input type='text' id='wedding-location-input'><br>
+        </form>
+        
+        <div class='invitation'>
+          <div id='initials'></div>
+          <span>You are cordially invited to the wedding of</span>
+          <div id='names'></div>
+          <div id='last-name'></div>
+          <div id='date'></div>
+          <div id='wedding-location'></div>
+        </div>
+      </div>
+    </div>
+    <script src='./index.js'></script>
+  </body>
+</html>

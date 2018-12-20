@@ -1,0 +1,86 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #262626;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+
+#buttons {
+  grid-area: nav;
+  margin-left: 30%;
+}
+
+.input {
+  grid-area: left;
+  margin-left: 30%;
+  color: white;
+}
+
+.invitation {
+  grid-area: main;
+  text-align: center;
+  padding: 70px;
+  background-color: #A6B4C5;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 40px 400px;
+  grid-template-areas:
+        ". nav main ."
+        ". left main .";
+}
+
+#first-name-input, #second-name-input, #last-name-input, #date-input, #wedding-location-input {
+  margin-bottom: 10px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+
+span {
+  font-size: 12px;
+}
+
+button {
+  background-color: #262626;
+  border: none;
+  color: white;
+}
+
+#initials, #names, #last-name {
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+
+#date, #wedding-location {
+  font-size: 14px;
+}
+
+.formal-toggle {
+  background-color: #A6B4C5;
+}
+
+.spring-toggle {
+  background-color: white;
+  color: green;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.art-deco-toggle {
+  background-color: black;
+  color: lightblue;
+  font-weight: bold; 
+}
+
+
+
+
